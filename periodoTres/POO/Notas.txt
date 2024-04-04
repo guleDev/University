@@ -1,0 +1,5 @@
+                       INT          FLOAT          BOOL     VARCHAR
+Dados Primitivos = [ Inteiro, Pontos Flutuantes, Booleans, Caracteres ]
+
+Tipificação de dados, para alocar um quantidade x na memória, assim otizando
+
