@@ -17,20 +17,33 @@ def inserirDados():
     conector.commit()
 
 def alunoCurso():
-    varAluno_ID = input("Qual o ID do aluno -> ")
-    varCurso_ID = input("Qual o ID do curso do aluno -> ")
+    varAluno_ID = input("Insira o ID do aluno -> ")
+    varCurso_ID = input("Insira o ID do curso do aluno -> ")
     print("Good bye...")
     
     cursor.execute(f"INSERT INTO AlunoCurso (aluno_id, curso_id) VALUES ({varAluno_ID}, {varCurso_ID});")
     conector.commit()
 
 def curso():
-    varNome = input("Qual o nome do curso -> ")
-    varProfessor = input("Qual o nome do professor para o curso-> ")
-    varCarga_Horaria = input("Qual a carga horaria do curso -> ")
+    varNome = input("Insira o nome do curso -> ")
+    varProfessor = input("Insira o nome do professor para o curso-> ")
+    varCarga_Horaria = input("Insira a carga horaria do curso -> ")
     varPeriodos = input("Quantos periodos tem o curso -> ")
     print("Good bye...")
 
     cursor.execute(f"INSERT INTO Curso (nome, professor, carga_horaria, periodos) VALUES ('{varNome}', '{varProfessor}', '{varCarga_Horaria}', {varPeriodos});")
     conector.commit()
 
+def endereco():
+    varCEP = input("Insira o CEP -> ")
+    varEstado = input("Insira o estado ->")
+    varUF = input("Insira o UF do estado -> ")
+    varCidade = input("Insira a cidade -> ")
+    varBairro = input("Insira o bairro-> ")
+    varRua = input("Insira o nome da rua -> ")
+    varNumero = input("Insira o numero da residencia -> ")
+    varComplemento = input("Insira um complemento -> ")
+    print("Good bye...")
+
+    cursor.execute(f"INSERT INTO Endereco (cep, estado, uf, cidade, bairro, rua, numero, complemento) VALUES ('{varCEP}', '{varEstado}', '{varUF}', {varCidade}, '{varBairro}', '{varRua}', {varNumero}, '{varComplemento}');")
+    conector.commit()
