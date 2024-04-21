@@ -1,0 +1,132 @@
+{
+  "f\u00e1cil": {
+    "banana": [
+      "Fruta amarela",
+      "Come\u00e7a com 'b'"
+    ],
+    "macaco": [
+      "Animal que vive em \u00e1rvores",
+      "Gosta de bananas"
+    ],
+    "sol": [
+      "Estrela no centro do sistema solar",
+      "Faz parte do sistema solar"
+    ],
+    "lua": [
+      "Sat\u00e9lite natural da Terra",
+      "Brilha \u00e0 noite"
+    ],
+    "cachorro": [
+      "Animal dom\u00e9stico",
+      "Amigo do homem"
+    ],
+    "\u00e1rvores": [
+      "Possuem folhas e ra\u00edzes",
+      "Produzem oxig\u00eanio"
+    ],
+    "gato": [
+      "Animal que mia",
+      "Gosta de ca\u00e7ar ratos"
+    ],
+    "mar": [
+      "Grande massa de \u00e1gua salgada",
+      "Coberta por ondas"
+    ],
+    "folha": [
+      "Parte de uma planta",
+      "Pode ser verde ou seca"
+    ],
+    "fogo": [
+      "Produz calor e luz",
+      "Pode ser utilizado para cozinhar"
+    ],
+    "azul": [
+      "cor prim\u00e1ria",
+      "cor do c\u00e9u"
+    ]
+  },
+  "m\u00e9dio": {
+    "elefante": [
+      "Animal grande",
+      "Tem tromba"
+    ],
+    "girafa": [
+      "Animal com pesco\u00e7o longo",
+      "Manchas irregulares na pele"
+    ],
+    "le\u00e3o": [
+      "Rei da selva",
+      "Animal selvagem"
+    ],
+    "tigre": [
+      "Animal listrado",
+      "Carn\u00edvoro"
+    ],
+    "computador": [
+      "M\u00e1quina que processa dados",
+      "Usado para diversas tarefas"
+    ],
+    "avi\u00e3o": [
+      "Meio de transporte a\u00e9reo",
+      "Voando acima do c\u00e9u"
+    ],
+    "trem": [
+      "Meio de transporte sobre trilhos",
+      "Faz 'chchch'"
+    ],
+    "navio": [
+      "Embarca\u00e7\u00e3o utilizada no mar",
+      "Pode ser de carga ou de passageiros"
+    ],
+    "bolo": [
+      "Doce preparado com farinha e a\u00e7\u00facar",
+      "Pode ser de diversos sabores"
+    ],
+    "casa": [
+      "Local de moradia",
+      "Tem diferentes c\u00f4modos"
+    ]
+  },
+  "dif\u00edcil": {
+    "ornitorrinco": [
+      "Animal incomum",
+      "P\u00f5e ovos e tem bico"
+    ],
+    "pangolim": [
+      "Mam\u00edfero com escamas",
+      "\u00c9 nativo da \u00c1frica e \u00c1sia"
+    ],
+    "quokka": [
+      "Marsupial sorridente",
+      "\u00c9 encontrado na Austr\u00e1lia"
+    ],
+    "axolote": [
+      "Anf\u00edbio salamandra",
+      "Possui habilidade de regenera\u00e7\u00e3o"
+    ],
+    "f\u00f3ton": [
+      "Part\u00edcula elementar",
+      "Tem comportamento dual"
+    ],
+    "espectroscopia": [
+      "T\u00e9cnica de an\u00e1lise de luz",
+      "Usada em diversas \u00e1reas"
+    ],
+    "neutrino": [
+      "Part\u00edcula subat\u00f4mica",
+      "Muito dif\u00edcil de detectar"
+    ],
+    "microsc\u00f3pio": [
+      "Instrumento \u00f3ptico",
+      "Usado para ver objetos muito pequenos"
+    ],
+    "quasar": [
+      "Objeto astron\u00f4mico distante",
+      "Emite grande quantidade de energia"
+    ],
+    "cromossomo": [
+      "Estrutura de DNA",
+      "Carrega informa\u00e7\u00f5es gen\u00e9ticas"
+    ]
+  }
+}
