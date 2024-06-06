@@ -13,11 +13,13 @@ main() {
     printf("\n Peso para quantas pessoas? ");
     scanf("%d", &n);
 
-    for(i=0, i<n, i++){
+    for(i=0; i<n; i++){
         printf("\n O peso da %da pessoa é: ", i+1);
         scanf("%f", &peso[i]);
     }
     printf("\n Peso(s) digitado(s): ");
 
-    for(i=0; i<n; i++)
+    for(i=0; i<n; i++){
+        printf("\n %.2f", peso[i]);
+    }
 }
