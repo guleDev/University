@@ -14,7 +14,7 @@ def jogar(palavra, dicas):
     print(f"Dica 1: {dicas[0]} ( {len(palavra) * '_ '})")
     palpite = input("Sua resposta: ")
 
-    if palpite.lower() == palavra:
+    if palpite.lower() == palavra.lower():
         print("Correto!")
         return True
     else:
@@ -24,7 +24,6 @@ def jogar(palavra, dicas):
             if palpite.lower() == palavra:
                 print("Correto!")
                 return True
-        print(f"Incorreto! A resposta correta é '{palavra}'.")
         return False
 
 def calcular_pontuacao(tempo_decorrido, tentativas, resposta_correta):
@@ -92,7 +91,7 @@ def main():
             pontuacao = 0
             for palavra, dicas in palavras_selecionadas:
                 if jogar(palavra, dicas):
-                    pontuacao += calcular_pontuacao(time.time() - start_time, 0, palavra)
+                    pontuacao += calcular_pontuacao(0)
             end_time = time.time()
             total_time = end_time - start_time
             print(f"Sua pontuação final é: {pontuacao}")
@@ -121,8 +120,7 @@ def main():
                         pontuacao = calcular_pontuacao(time.time() - start_time, 0, palavra)
                         pontuacoes[jogador] += pontuacao
                     else:
-                        print("Você não acertou a palavra.")
-                        print(f"A resposta correta é: {palavra}")
+                        print(f"Incorreto! A resposta correta é '{palavra}'.")
 
                 end_time = time.time()
                 total_time = end_time - start_time
