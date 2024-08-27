@@ -17,7 +17,7 @@ username = quote_plus(username)
 password = quote_plus(password)
 
 # URI de conexão
-uri = f"mongodb://guledev64:<password>@<hostname>/?ssl=true&replicaSet=atlas-14j2ke-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster1"
+uri = f"mongodb+srv://guledev64:<db_password>@cluster1.rfbhp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1"
 
 # Criar novo cliente e conectar-se ao servidor
 client = MongoClient(uri, server_api=ServerApi('1'))
